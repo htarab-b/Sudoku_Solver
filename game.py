@@ -11,7 +11,7 @@ pygame.font.init()
 screen = pygame.display.set_mode((500, 640))
 
 pygame.display.set_caption("SUDOKU Game")
-img = pygame.image.load('D:\Python Projects\Sudoku Solver\Images\icon.png')
+img = pygame.image.load('icon.png')
 pygame.display.set_icon(img)
 
 x = 0
