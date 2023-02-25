@@ -8,7 +8,7 @@ def imgsudoku(imgfile):
 
     classes = np.arange(0, 10)
 
-    model = keras.models.load_model("D:\Python Projects\Final Year Project\sudoku-solver-python\model-OCR.h5")
+    model = keras.models.load_model("model-OCR.h5")
     input_size = 48
 
     def get_perspective(img, location, height = 900, width = 900):
